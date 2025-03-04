@@ -1,1 +1,2 @@
-# macop_training_2025
+# macop_training
+Training materials for the macop lecture 4.25
