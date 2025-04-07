@@ -13,7 +13,7 @@ def confusion_matrix(target, prediction):
     # Create data for a confusion matrix 
     confusion_matrix_data = pd.crosstab(target, prediction)
     # Confusion Matrix
-    sns.heatmap(confusion_matrix_data, cmap='PuOr', annot=True,fmt=".1f",annot_kws={'size':16})
+    sns.heatmap(confusion_matrix_data, cmap='PuOr', annot=True, fmt="g", annot_kws={'size':16}, linewidth=1)
 
 
 #==============================
