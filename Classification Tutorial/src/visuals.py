@@ -90,7 +90,7 @@ def create_scatter_plot_categories(visualization_dataset, criteria):
 
     # Add title and labels ('\n' allow us to jump rows)
     ax.set_title(f"{criteria[0]} vs {criteria[1]} Title Embeddings", name='Sans', fontsize = 28, color='black')
-    ax.set_xlabel('Visually check for patterns in the data.\n  Points close together are similar news titles.\n  Points are colored by correct/incorrect model predictions.')
+    ax.set_xlabel('Visually check for patterns in the data.\n  Points close together are similar news titles.\n  Points are colored by model prediction categories.')
     ax.set_ylabel('')
 
     # Hide x and y ticks (because they dont mean anything)
