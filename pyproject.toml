@@ -6,14 +6,21 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "ipykernel==6.29.5",
+    "bertopic==0.17.0",
+    "joblib==1.4.2",
     "numpy==1.26.3",
     "pandas==2.1.4",
     "scikit-learn==1.3.2",
     # "spacy==3.4.4",
-    # "nltk==3.8.1",
+    "nltk==3.8.1",
     "matplotlib==3.8.1",
+    "pip==25.0.1",
+    "pickle==4.0",
     "seaborn==0.13.0",
     "transformers==4.50.0",
     "tokenizers==0.21.1",
     "sentence-transformers==3.4.1",
-    "joblib==1.4.2"]
+    "uv==0.6.14",
+    "umap-learn==0.5.7",
+    "wordcloud==1.9.4"
+    ]

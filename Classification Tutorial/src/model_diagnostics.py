@@ -206,5 +206,5 @@ def create_heatmap(matrix, labels:list[str], null_value:int=-1):
     # ---------
     ax.set_title("Confusion Matrix", fontsize=20, fontweight="bold")
 
-    plt.text(y=-1, x=-0.1, s="Counts by class are found in the bottom left corner. \nRow and Column totals are calculated in the first layer.\nPrecision is across the top, Recall is down the right, by class then globally.", fontsize=12, ha="left", va="top", color="indigo", fontweight="bold", alpha=1)
+    plt.text(y=-2.5, x=-0.1, s="Counts by class are found in the bottom left corner. \nRow and Column totals are calculated in the first layer.\nPrecision is across the top, Recall is down the right, by class then globally.", fontsize=12, ha="left", va="top", color="indigo", fontweight="bold", alpha=1)
     plt.show()
